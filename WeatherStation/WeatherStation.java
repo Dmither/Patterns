@@ -10,6 +10,7 @@ public class WeatherStation {
         weatherData.setMeasurements(80, 65, 30.4f);
         weatherData.setMeasurements(82, 70, 29.2f);
         weatherData.setMeasurements(78, 90, 29.2f);
+<<<<<<< HEAD
 
         double heatindex;
         double t = 78;
@@ -31,5 +32,7 @@ public class WeatherStation {
                 + 8.43296 * Math.pow(10, -10) * t*t * rh*rh*rh
                 - 4.81975 * Math.pow(10, -11) * t*t*t * rh*rh*rh;
         System.out.println(heatindex);
+=======
+>>>>>>> origin/main
     }
 }
