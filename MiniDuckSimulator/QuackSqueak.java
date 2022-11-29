@@ -1,3 +1,5 @@
+package MiniDuckSimulator;
+
 public class QuackSqueak implements QuackBehavior{
     @Override
     public void quack() {
